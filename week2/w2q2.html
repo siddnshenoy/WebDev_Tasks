@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Grid</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background-color: #eef2f3;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 200px);
+      gap: 10px;
+    }
+    .grid img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <img src="image1.jpg" alt="">
+    <img src="image 2.png" alt="">
+    <img src="image3.png" alt="">
+    <img src="image4.png" alt="">
+    <img src="image.png" alt="">
+    <img src="image5.png" alt="">
+  </div>
+</body>
+</html>

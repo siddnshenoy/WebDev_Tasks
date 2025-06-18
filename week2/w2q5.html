@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Siddarth’s Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          primaryBg: '#ffecd1',
+          primaryText: '#2b2d42',
+          accent: '#ff6f61',
+          accentDark: '#d72638',
+          cardBg: '#ffffff',
+        }
+      }
+    }
+  }
+</script>
+
+</head>
+<body class="bg-primaryBg text-primaryText font-sans antialiased">
+  <div class="max-w-4xl mx-auto p-6 flex flex-col gap-12">
+    <header class="flex flex-col items-center gap-4">
+      <img src="DSC_0147.JPG" alt="Profile" class="w-32 h-32 rounded-full border-4 border-accent object-cover shadow-lg" />
+      <h1 class="text-4xl font-extrabold">Siddarth N Shenoy</h1>
+      <p class="text-lg text-primaryText/80">Cricket fan &amp; freetime coder</p>
+    </header>
+    <section class="bg-cardBg rounded-xl p-8 shadow">
+      <h2 class="text-2xl font-bold border-b-4 border-accent pb-2 mb-6">Hobbies &amp; Interests</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div class="flex items-center gap-3">
+          <span class="inline-block w-3 h-3 bg-accent rounded-full"></span>
+          <span>Watching cricket matches</span>
+        </div>
+        <div class="flex items-center gap-3">
+          <span class="inline-block w-3 h-3 bg-accent rounded-full"></span>
+          <span>Nature photography</span>
+        </div>
+        <div class="flex items-center gap-3">
+          <span class="inline-block w-3 h-3 bg-accent rounded-full"></span>
+          <span>Writing sci‑fi ideas</span>
+        </div>
+        <div class="flex items-center gap-3">
+          <span class="inline-block w-3 h-3 bg-accent rounded-full"></span>
+          <span>Fun coding mini‑projects</span>
+        </div>
+      </div>
+    </section>
+    <section class="bg-cardBg rounded-xl p-8 shadow">
+      <h2 class="text-2xl font-bold border-b-4 border-accentDark pb-2 mb-6">Projects</h2>
+      <ul class="grid grid-cols-1 gap-4">
+        <li class="p-4 border-l-4 border-accent bg-primaryBg/50 rounded">Portfolio Website (this one)</li>
+        <li class="p-4 border-l-4 border-accentDark bg-primaryBg/50 rounded">Metro Ticketing System</li>
+      </ul>
+    </section>
+    <section class="bg-cardBg rounded-xl p-8 shadow">
+      <h2 class="text-2xl font-bold border-b-4 border-amber-400 pb-2 mb-6">Tools I Want to Learn</h2>
+      <div class="overflow-x-auto">
+        <table class="min-w-full table-auto text-sm">
+          <thead class="bg-accent text-white">
+            <tr>
+              <th class="px-4 py-2 text-left">Skill / Tool</th>
+              <th class="px-4 py-2 text-left">Interest Level</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="even:bg-primaryBg/60">
+              <td class="px-4 py-2">JavaScript</td>
+              <td class="px-4 py-2">High</td>
+            </tr>
+            <tr class="even:bg-primaryBg/60">
+              <td class="px-4 py-2">Java</td>
+              <td class="px-4 py-2">Low</td>
+            </tr>
+            <tr class="even:bg-primaryBg/60">
+              <td class="px-4 py-2">Python</td>
+              <td class="px-4 py-2">High</td>
+            </tr>
+            <tr class="even:bg-primaryBg/60">
+              <td class="px-4 py-2">Git / GitHub</td>
+              <td class="px-4 py-2">Mid</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <footer class="text-center text-sm text-primaryText/60">
+      © 2025 Siddarth N Shenoy
+    </footer>
+  </div>
+</body>
+</html>
