@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  color: #012A4A;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #0077b6, #00b4d8);
+  padding: 10px 30px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.club-name {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.bootcamp-btn {
+  color: white;
+  text-decoration: none;
+  background-color: #023e8a;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.mission-section {
+  height: 90vh;
+  background-image: url('mission_bg.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.mission-overlay {
+  background-color: rgba(0, 119, 182, 0.7);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.mission-text {
+  color: white;
+  font-size: 1.8rem;
+  text-align: center;
+  max-width: 800px;
+}
+
+.board-section {
+  padding: 60px 20px;
+  background-color: #caf0f8;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #0077b6;
+  margin-bottom: 40px;
+}
+
+.president {
+  margin-bottom: 40px;
+}
+
+.president-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #03045e;
+}
+
+.member-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.member-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #023e8a;
+}
+
+.members-grid {
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+  font-weight: 600;
+  color: #03045e;
+}
+
+.contact-section {
+  background-color: #0077b6;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.icon:hover {
+  opacity: 1;
+}
